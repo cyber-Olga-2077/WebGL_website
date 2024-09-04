@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="app/scss/style.css">
+
+  <title>BeatScape Headphones</title>
+
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body>
+
+  <header class="header">
+    <div class="overlay has-fade"></div>
+    <nav class="container container--pall flex flex-jc-sb flex-ai-c">
+      <a href="/" class="header__logo">
+        <img src="images/Asset 2.svg" alt="BeatScape">
+      </a>
+
+      <a id="btnHamburger" href="#" class="header__toggle hide-for-desktop">
+        <span></span>
+        <span></span>
+        <span></span>
+      </a>
+
+      <div class="header__links hide-for-mobile">
+        <a href="/2d.html">2D Presentation</a>
+        <a href="/webgl.html">3D Presentation</a>
+      </div>
+      <a href="#" class="button header__cta hide-for-mobile">Request Invite</a>
+    </nav>
+
+    <div class="header__menu has-fade">
+      <a href="/2d.html">2D Presentation</a>
+      <a href="/webgl.html">3D Presentation</a>
+    </div>
+
+  </header>
+
+  <section class="hero">
+    <div class="container">
+      <div class="hero__image">
+      </div>
+      <div class="hero__text  container-pall">
+        <h1>
+          Słuchawki następnej generacji
+        </h1>
+        <p>
+          Poznaj nasz najnowszy produkt: słuchawki BeatScape Hero, których niezwykle płynny dźwięk oraz wzmocnione basy przeniosą Cię prosto na sceny najlepszych festiwali.
+        </p>
+    </div>
+    </div>
+  </section>
+
+
+  <section class="features container container--pall">
+    <h2> Dlaczego warto wybrać BeatScape Hero?</h2>
+    <p>Wybierz BeatScape Hero, aby cieszyć się doskonałym dźwiękiem, komfortem przez cały dzień i łatwym sterowaniem na wyciągnięcie ręki.</p>
+    
+    <!--1-->
+
+    <div class="feature__grid">
+      <div class="feature__item">
+        <div class="feature__icon"><img src="/images/icon-online.svg"/></div>
+        <div class="feature__title">Jakość Dźwięku</div>
+        <div class="feaure__description">Ciesz się czystym, przestrzennym dźwiękiem dzięki zaawansowanej technologii redukcji szumów i dynamicznym przetwornikom.</div>
+      </div>
+
+    <!--2-->
+
+      <div class="feature__item">
+        <div class="feature__icon"><img src="/images/icon-budgeting.svg"/></div>
+        <div class="feature__title">Komfort przez Cały Dzień</div>
+        <div class="feaure__description">Ergonomiczny design i miękkie nauszniki sprawiają, że słuchawki BeatScape Hero są wygodne nawet przy długotrwałym noszeniu.</div>
+      </div>
+
+    <!--3-->
+
+      <div class="feature__item">
+        <div class="feature__icon"><img src="/images/icon-onboarding.svg"/></div>
+        <div class="feature__title">Szybkie Ładowanie</div>
+        <div class="feaure__description">Ciesz się do 30 godzin odtwarzania muzyki na jednym ładowaniu. Funkcja szybkiego ładowania zapewnia dodatkowe 5 godzin po zaledwie 15 minutach.</div>
+      </div>
+
+    <!--4-->
+
+      <div class="feature__item">
+        <div class="feature__icon"><img src="/images/icon-api.svg"/></div>
+        <div class="feature__title">Inteligentne Sterowanie</div>
+        <div class="feaure__description">Intuicyjne przyciski na słuchawkach umożliwiają szybkie i wygodne sterowanie muzyką oraz połączeniami bez potrzeby sięgania po telefon.</div>
+      </div>
+
+    </div>
+  
+  </section>
+  
+  <footer class="footer">
+
+    <div class="container">
+      <a class="footer__logo" href="#">
+        <img src = "/images/Asset 2.svg"/>
+      </a>
+  
+      <div class="footer__social">
+        <a href="#">
+          <img src="/images/icon-facebook.svg" alt="Facebook">
+        </a>
+        <a href="#">
+          <img src="/images/icon-youtube.svg" alt="Youtube">
+        </a>
+        <a href="#">
+          <img src="/images/icon-twitter.svg" alt="Twitter">
+        </a>
+        <a href="#">
+          <img src="/images/icon-pinterest.svg" alt="Pinterest">
+        </a>
+        <a href="#">
+          <img src="/images/icon-instagram.svg" alt="Instagram">
+        </a>
+      </div>
+  
+      <div class="footer__links col1">
+        <a href="#">About Us</a>
+        <a href="#">Contact</a>
+        <a href="#">Blog</a>
+      </div>
+  
+      <div class="footer__links col2">
+        <a href="#">Careers</a>
+        <a href="#">Support</a>
+        <a href="#">Privacy Policy</a>
+      </div>
+  
+    <div class="footer__cta">
+      <a href="#" class="button">Requst Invite</a>
+    </div>
+    
+    <div class="footer__copyright">
+      &copy; Easybank. All Rights Reserved.
+    </div>
+
+    </div>  
+
+
+  </footer>
+
+
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Your Name Here</a>.
+  </div>
+  <script src="/app/js/script.js"></script>
+</body>
+</html>
